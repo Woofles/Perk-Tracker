@@ -13,7 +13,7 @@ http://i.imgur.com/MXKRd6S.png
 * Set up a database with a table named 'perk_stats'.
 * Give that table four columns:
   * id - int, AUTO_INCREMENT
-  * time - timestample, CURRENT_TIMESTAMP
+  * time - timestamp, CURRENT_TIMESTAMP
   * current_points - int
   * total_points - int
 * Copy sample_config.json to src/config.json and fill it out (leave token blank).
