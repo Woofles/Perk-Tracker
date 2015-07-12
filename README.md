@@ -22,3 +22,5 @@ http://i.imgur.com/MXKRd6S.png
     * Inserts a new data point every 5 minutes.
   * 0	0	1,15	*	*	/usr/bin/php -f \*\*\*PATH TO get_token.php\*\*\* &> /dev/null
     * Gets a new access token once every 15 days.
+* Navigate to the path to get_token.php in your web browser.
+* Navigate to index.php in your web browser to view the tracker.
