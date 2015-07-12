@@ -16,7 +16,7 @@ http://i.imgur.com/MXKRd6S.png
   * time - timestample, CURRENT_TIMESTAMP
   * current_points - int
   * total_points - int
-* Copy sample_config.json to config.json and fill it out (leave token blank).
+* Copy sample_config.json to src/config.json and fill it out (leave token blank).
 * Setup two cron jobs:
   * \*/5	*	*	*	*	/usr/bin/php -f \*\*\*PATH TO insert_point.php\*\*\* &> /dev/null
     * Inserts a new data point every 5 minutes.
